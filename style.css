@@ -29,7 +29,8 @@ header a {
 }
 
 a:hover {
-    border-bottom: 3px solid black;
+    /* border-bottom: 3px solid black; */
+    text-decoration: underline;
 }
 
 .rightnav a {
@@ -47,7 +48,8 @@ a:hover {
 }
 
 .rightnav a:hover {
-    border-bottom: 3px solid black;
+    /* border-bottom: 3px solid black; */
+    text-decoration: underline;
 }
 
 .firstImg img {
@@ -77,10 +79,17 @@ h4 {
 }
 
 h4:hover {
-    border-bottom: 3px solid black;
+    /* border-bottom: 3px solid black; */
+    text-decoration: underline;
 }
 
 .work {
     margin-left: 15px;
     margin-bottom: -20px;
+}
+
+@media screen and (max-width: 750px) {
+    container {
+        width: 100%;
+    }
 }
